@@ -1,32 +1,52 @@
-body{
+body {
     text-align: center;
 }
-.btn{
+
+.btn {
     height: 200px;
     width: 200px;
     border: 10px solid black;
     border-radius: 20%;
     margin: 2rem;
 }
-.container{
+
+#btn {
+    background: linear-gradient(45deg, rgb(65, 65, 231), rgb(239, 82, 203));
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 0.1s;
+}
+
+#btn:active {
+    transform: scale(0.8);
+}
+
+.container {
     display: flex;
     justify-content: center;
 }
-.yellow{
+
+.yellow {
     background-color: yellow;
 }
-.red{
+
+.red {
     background-color: red;
 }
-.green{
+
+.green {
     background-color: lightgreen;
 }
-.purple{
+
+.purple {
     background-color: purple;
 }
-.flash{
+
+.flash {
     background-color: white;
 }
-.userflash{
+
+.userflash {
     background-color: green;
 }
