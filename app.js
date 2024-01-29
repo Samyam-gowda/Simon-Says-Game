@@ -5,8 +5,10 @@ let btns = ["red", "yellow", "green", "purple"];
 let started = false;
 let level = 0;
 let h2 = document.querySelector("h2");
+let btn = document.querySelector(".button")
 
-document.addEventListener("keypress", function () {
+btn.addEventListener("click", function () {
+    btn.style.opacity = 0;
     if (started == false) {
         console.log("game started");
         started = true;
@@ -78,4 +80,5 @@ function reset() {
     gameseq = [];
     userseq = [];
     level = 0;
+    btn.style.opacity = 1;
 }
